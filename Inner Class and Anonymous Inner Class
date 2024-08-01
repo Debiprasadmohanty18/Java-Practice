@@ -1,1 +1,47 @@
+// Class Inside a Class and that Insider class is known as Inner Class
+
+
+class A
+{
+    public void SomethingInA()
+    {
+        System.out.println("In A Class");
+    }
+
+    class B 
+    {
+        public void SomethingInB()
+        {
+            System.out.println("In B Class");
+        }
+    }
+}
+
+
+public class Inner_Class {
+    public static void main(String[] args) 
+    {
+        A obj = new A();
+        obj.SomethingInA();
+
+        A.B obj1 = obj.new B();  //To create object of inner class we have to take outerclass reference
+        obj1.SomethingInB();
+
+
+        //ANONYMOUS INNER CLASS
+
+
+        A obj3 = new A()         // Anonymous Inner Class means the class who has no name.
+        { 
+            public void SomethingInA()
+                {
+                    System.out.println("In Anonymous Inner Class");
+                }
+        };
+        obj3.SomethingInA(); //Override the class using Anonymous inner class 
+                             //If you create only one object for both main class and anonymous class then it will execute only anonymous class
+        
+    }
+    
+}
 
