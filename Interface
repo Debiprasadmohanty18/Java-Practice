@@ -4,3 +4,4 @@
 // Inteface to Interface ----> Extends 
 // Interface to Class ----> Implements
 // By default all the method are "PUBLIC and ABSTRACT" in Interface.
+// By default all the variables are "FINAL & STATIC" in Interface.
