@@ -1,1 +1,5 @@
-
+// Interface is a keyword used to achieve total Abstraction.
+// It supports multiple inheritance.
+// Class to Class ----> Extends
+// Inteface to Interface ----> Extends 
+// Interface to Class ----> Implements
