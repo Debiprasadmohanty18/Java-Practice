@@ -1,3 +1,5 @@
+// Access Modifier gives the accessable criteria.
+
 class Launch
 {
 	A obj=new A();
