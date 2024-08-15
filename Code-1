@@ -1,1 +1,22 @@
+// Print a Number if it is Even number otherwise get user input until you get even no.
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n;
+        while(true)
+        {
+            System.out.println("Enter a Number:- ");
+            n = sc.nextInt();
+            sc.close();
+            if(n%2==0)
+            {
+                System.out.println(n + " is an Even No.");
+                break;
+            }    
+        }
+    }
+}
+
 
