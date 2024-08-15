@@ -1,1 +1,22 @@
+// Print the word if " " is present otherwise get user input until get it.
+
+import java.util.Scanner;
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String n;
+        while(true)
+        {
+            System.out.println("Enter a String:- ");
+            n = sc.nextLine();
+            sc.close();
+            if(n.contains(" "))
+            {
+                System.out.println(n);
+                break;
+            }    
+        }
+    }
+}
 
