@@ -1,3 +1,17 @@
+// Both are used to perform sorting operation.
+//                  Comparable                    |                   Comparator                        |
+// -> Comparable provides a single sorting        | -> The Comparator provides multiple sorting         | 
+// sequence. In other words, we can sort the      |   sequence.In other words, we can sort the          |
+// collection on the basis of a single element    |   collection on the basis of multiple elements      |
+// such as id, name, and price.                   |   such as id, name, and price etc.                  |
+// -> Comparable provides compareTo() method      | -> Comparator provides compare() method to          |
+// to sort elements.                              |   sort elements.                                    |
+// -> Comparable is present in java.lang package. | -> Comparator is present in the java.util package.  |
+// -> We can sort the list elements of Comparable | -> We can sort the list elements of Comparator type |
+//  type by Collections.sort(List) method.        |  by Collections.sort(List, Comparator) method.      |
+//________________________________________________|_____________________________________________________|
+
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
