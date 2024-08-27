@@ -1,6 +1,6 @@
 // Abstract keyword do not allow to create object so, we have to extend the parent class to create the object
 
-//Abstract Class Without Abstract Method
+//Abstract Class Without Abstract Method.
 abstract class X {
     public void A() {
         System.out.println("It's an Abstract Class Without Abstract Method");   
