@@ -1,4 +1,4 @@
-// Annotation are used to provide some Information about program and it does not affect the action of  compiled program.
+// Annotation are used to provide some Information about program and it does not affect the action of  compiled program...
 
 class Animal {
     public void eatSomeFoodThenPlay()
